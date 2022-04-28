@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>💻 Git Cheat Sheet</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="script.js"></script>
+  <script src="https://kit.fontawesome.com/471bdc5e2e.js" crossorigin="anonymous"></script>
+</head>
+
+  <body>
+    
+    <div class="wrapper">
+        <header>
+            
+            <h1>💻 Git Commands Cheat Sheet.</h1>
+
+        </header>
+
+        <section>
+            <table>
+                <tr>
+                    <th><h2 class="subtitle">LOCAL REPO</h2></th>
+                </tr>
+
+                <tr class="command_info">
+                    <td><code class="table_item">git init</code></td>
+                    <td><p class="table_item command_desc">Initialize local repository.</p></td>
+                    <td><button class="table_item command_copy" onclick="myFunction()">Copy</button></td>
+                </tr>
+
+                <tr class="command_info">
+                    <td><code class="table_item">git remote add repo_name repo_url</code></td>
+                    <td><p class="table_item command_desc">Add remote repository to local repository.</p></td>
+                    <td><button class="table_item command_copy" onclick="myFunction()">Copy</button></td>
+                </tr>
+
+                <tr>
+                    <th><h2 class="subtitle">CLONE</h2></th>
+                </tr>
+
+                <tr class="command_info">
+                    <td><code class="table_item">git clone repo_url</code></td>
+                    <td><p class="table_item command_desc">Clone repository.</p></td>
+                    <td><button class="table_item command_copy" onclick="myFunction()">Copy</button></td>
+                </tr>
+
+                <tr class="command_info">
+                    <td><code class="table_item">git clone -b branch_name repo_url</code></td>
+                    <td><p class="table_item command_desc">Clone specific branch from repository.</p></td>
+                    <td><button class="table_item command_copy" onclick="myFunction()">Copy</button></td>
+                </tr>
+
+                <tr>
+                    <th><h2 class="subtitle">BRANCHES</h2></th>
+                </tr>
+
+                <tr class="command_info">
+                    <td><code class="table_item">git branch</code></td>
+                    <td><p class="table_item command_desc">Display local branches.</p></td>
+                    <td><button class="table_item command_copy" onclick="myFunction()">Copy</button></td>
+                </tr>
+
+                <tr class="command_info">
+                    <td><code class="table_item">git branch branch_name</code></td>
+                    <td><p class="table_item command_desc">Create local branch.</p></td>
+                    <td><button class="table_item command_copy" onclick="myFunction()">Copy</button></td>
+                </tr>
+
+                <tr class="command_info">
+                    <td><code class="table_item">git branch -d branch_name</code></td>
+                    <td><p class="table_item command_desc">Delete local branch.</p></td>
+                    <td><button class="table_item command_copy" onclick="myFunction()">Copy</button></td>
+                </tr>
+
+                <tr class="command_info">
+                    <td><code class="table_item">git checkout branch_name</code></td>
+                    <td><p class="table_item command_desc">Swap branches.</p></td>
+                    <td><button class="table_item command_copy" onclick="myFunction()">Copy</button></td>
+                </tr>
+
+                <tr>
+                    <th>
+                        <h2 class="subtitle">MERGE</h2>
+                    </th>
+                </tr>
+
+                <tr class="command_info">
+                    <td><code class="table_item">git merge branch_name</code></td>
+                    <td><p class="table_item command_desc">Merge branch to active branch.</p></td>
+                    <td><button class="table_item command_copy" onclick="myFunction()">Copy</button></td>
+                </tr>
+
+            </table>
+
+        </section>
+
+    </div>
+  
+  </body>
+</html>
