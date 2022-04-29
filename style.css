@@ -77,3 +77,15 @@ li {
   list-style: none;
   font-family: Inconsolata;
 }
+
+@media (max-width: 1070px) {
+  .wrapper {
+    margin: 0px 10vw 0px 10vw;
+  }
+}
+
+@media (max-width: 800px) {
+  .wrapper {
+    margin: 0px 5vw 0px 5vw;
+  }
+}
